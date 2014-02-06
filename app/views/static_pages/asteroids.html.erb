@@ -1,0 +1,31 @@
+<div class="jumbotron">
+	<div class="container">
+		<h1 class="title">Asteroids!</h1>
+		<h2><%= button_to 'Github', 'http://www.github.com/leesungchul/AsteroidGame' %></h2>
+	</div>
+</div>
+
+<div class="instructions">
+	<h4>W, A, S, D to move. Spacebar to shoot</h4>
+</div>
+<div class="wrapper">
+	<h2><a type="button" class="start btn btn-primary">Start</a></h2>
+</div>
+
+<canvas class='asteroid' width="700" height="700"></canvas>
+
+
+
+<script>
+
+	$(function() {
+		$('body').removeClass();
+		$('body').addClass('asteroids');
+		$('.start').click(function() {
+			var canvas = document.getElementsByTagName("canvas")[0];
+			var ctx = canvas.getContext("2d");
+			var newGame = new Asteroids.Game(ctx);
+			newGame.start();
+		});
+	});
+</script>

@@ -1,0 +1,28 @@
+
+<div class="jumbotron">
+	<div class="container">
+		<h1 class="title">SnakeTRON!</h1>
+		<h2><%= button_to 'Github', 'http://www.github.com/leesungchul/SnakeGame' %></h2>
+	</div>
+</div>
+<div class="instructions">
+	<h4>W, A, S, D to move Snake1. Up, Down, Left, Right to move Snake2</h4>
+</div>
+  <div id="board">
+
+  </div>
+	<div class="wrapper">
+		<h1><button class="startbutton">Start</button></h1>
+	</div>
+	<script>
+
+  $(function () {
+		$('body').removeClass();
+		$('body').addClass('snake');
+		$('.startbutton').on("click", function() {
+			var board = new SnakeGame.Board({board: $('#board')});
+			board.play();
+		});
+
+  });
+	</script>
