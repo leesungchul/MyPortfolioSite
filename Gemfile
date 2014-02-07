@@ -44,3 +44,5 @@ gem 'ejs'
 gem 'mail_form'
 
 gem 'font-awesome-sass'
+
+gem 'newrelic_rpm'
