@@ -23,15 +23,15 @@
 //= require_tree ./views
 //= require_tree ./routers
 //= require_tree ./Snake
-//= require ./AsteroidGame/asteroid_helpers
-//= require ./AsteroidGame/moving_object
-//= require ./AsteroidGame/keymaster
-//= require ./AsteroidGame/game
-//= require ./AsteroidGame/asteroid
-//= require ./AsteroidGame/bullet
-//= require ./AsteroidGame/ship
-//= require ./AsteroidGame/resize
-//= require_self ./AsteroidGame
+//= require asteroid_helpers
+//= require moving_object
+//= require keymaster
+//= require game
+//= require asteroid
+//= require bullet
+//= require ship
+//= require resize
+
 
 
 
