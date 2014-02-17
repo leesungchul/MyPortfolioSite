@@ -23,14 +23,9 @@
 //= require_tree ./views
 //= require_tree ./routers
 //= require_tree ./Snake
-//= require /AsteroidGame/asteroid_helpers
-//= require /AsteroidGame/moving_object
-//= require /AsteroidGame/asteroid
-//= require /AsteroidGame/game
-//= require /AsteroidGame/bullet
-//= require /AsteroidGame/ship
-//= require /AsteroidGame/keymaster
-//= require /AsteroidGame/resize
+//= require ./AsteroidGame/asteroid_helpers
+//= require ./AsteroidGame/moving_object
+//= require_tree ./AsteroidGame
 
 
 
