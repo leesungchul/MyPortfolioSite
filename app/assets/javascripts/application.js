@@ -31,6 +31,7 @@
 //= require ./AsteroidGame/bullet
 //= require ./AsteroidGame/ship
 //= require ./AsteroidGame/resize
+//= require_self ./AsteroidGame
 
 
 
